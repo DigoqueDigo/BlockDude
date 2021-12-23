@@ -23,6 +23,15 @@ $ cabal install gloss-juicy
 ```
 *Atenção que o primeiro comando é apenas para distribuições Linux baseadas em Arch
 
+*Acho que o gloss-juicy não está disponizel em Windows, portanto não é possivel compilar as Tarefas
+
+## Gerar Executável e Jogar
+
+```bash
+$ ghc Tarefa5_2021li1g082.hs
+$ ./ Tarefa5_2021li1g082
+``` 
+
 ## Testes
 
 O projecto contém testes unitários escritos usando a biblioteca [HUnit](https://hackage.haskell.org/package/HUnit). Os testes podem ser executados da seguinte forma.
