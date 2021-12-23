@@ -1,13 +1,27 @@
 # Projeto de Laboratórios de Informática I
 
-## Reposit
-
-
+## Clonar o Repositório
 
 ```bash
-$ git clone git@gitlab.com:uminho-di/li1/2122/2021li1g082.git
-$ cd 2021 
+$ git clone https://github.com/DigoqueDigo/BlockDude.git
 ```
+
+## "Requirements"
+
+** Haskell compiler (GHC)
+** gloss
+** gloss-juicy
+** HUnit (opcinal, apenas serve para correr os testes)
+
+## Comandos para instalar os "Requirements"
+
+```bash
+$ sudo pacman -S ghc cabal-install happy alex haskell-haddock-library
+$ cabal update
+$ cabal install gloss
+$ cabal install gloss-juicy
+```
+*Atenção que o primeiro comando é apenas para distribuições Linux baseadas em Arch
 
 ## Testes
 
