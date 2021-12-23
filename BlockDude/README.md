@@ -8,7 +8,10 @@ $ git clone https://github.com/DigoqueDigo/BlockDude.git
 
 ## "Requirements"
 
-Haskell compiler (GHC)\ngloss\ngloss-juicy\nHUnit (opcinal, apenas serve para correr os testes)
+| Haskell compiler (GHC)
+| gloss
+| gloss-juicy
+| HUnit (opcinal, apenas serve para correr os testes)
 
 ## Comandos para instalar os "Requirements"
 
