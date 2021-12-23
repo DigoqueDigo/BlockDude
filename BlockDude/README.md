@@ -29,7 +29,7 @@ $ cabal install gloss-juicy
 
 ```bash
 $ ghc Tarefa5_2021li1g082.hs
-$ ./ Tarefa5_2021li1g082
+$ ./Tarefa5_2021li1g082
 ``` 
 
 ## Testes
