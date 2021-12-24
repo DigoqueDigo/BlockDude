@@ -45,6 +45,6 @@ $ ghci -i="src" -i="tests" tests/Tests.hs
 >>> runTestsT6 -- Correr os testes da tarefa 6
 >>> runAllTests -- Correr todos os testes
 ```
-## Notas
+## Nota Final
 
 Gostava de agradecer ao Luís Caetano por ter escrito a maior parte dos testes e disponibilizado algumas das imagens utilizadas no Jogo.
