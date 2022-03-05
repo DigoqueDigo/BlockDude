@@ -25,7 +25,7 @@ $ cabal install gloss-juicy
 Depois de escolherem a diretoria onde querem clonar o repósitorio, executem os seguintes comandos.
 
 ```bash
-$ git clone git@gitlab.com:uminho-di/li1/2122/2021li1g082.git
+$ git clone https://github.com/DigoqueDigo/BlockDude.git
 $ cd BlockDude/src
 $ ghc -main-is Main -outputdir Tarefa5 -o BlockDude Tarefa5_2021li1g082
 $ ./BlockDude
