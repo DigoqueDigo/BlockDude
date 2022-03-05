@@ -1,12 +1,32 @@
-# Laboratórios de Informática I
+# Laboratórios de Informática I - BlockDude
 
-## Repositório
+Trabalho criado totalmente por mim no âmbito da cadeira de Laboratórios de Informática I, era suposto o trabalho ter sido feito por duas pessoas, mas infelizmente o colega que me saiu na rifa não mexeu uma palha.
 
-O sistema de controlo de versões utilizado é o git. O repositório encontra-se disponível [nesta organização](https://gitlab.com/uminho-di/li1/2122). Para obter o repositório na sua máquina, garanta que tem a chave pública SSH adicionada na sua conta do GitLab com o email instituicional ([User Settings/SSH Keys](https://gitlab.com/-/profile/keys)), depois basta efetuar clone ao repositório.
+## Requisitos
+
+- GHC (Glasgow Haskell Compiler)
+- gloss
+- gloss-juicy
+- HUnit (opcional)
+
+## Instalação dos Requisitos
+
+Depois de instalarem o ghc no vosso pc, executem os seguintes comandos.
+
+```bash
+$ cabal update
+$ cabal install gloss
+$ cabal install gloss-juicy
+```
+## Criar executável e Jogar
+
+Depois de escolherem a diretoria onde querem clonar o repósitorio, executem os seguintes comandos.
 
 ```bash
 $ git clone git@gitlab.com:uminho-di/li1/2122/2021li1g082.git
-$ cd 2021li1g082 
+$ cd BlockDude/src
+$ ghc -main-is Main -outputdir Tarefa5 -o BlockDude Tarefa5_2021li1g082
+$ ./BlockDude
 ```
 
 ## Testes
@@ -22,7 +42,6 @@ $ ghci -i="src" -i="tests" tests/Tests.hs
 >>> runAllTests -- Correr todos os testes
 ```
 
-## Grupo 82
+## Agradecimentos
 
-- **A100897** Diogo Marques;
-- **A100893** Luís de Castro Rodrigues Caetano;
+- **Professor Nelson Estevão**, que ao contrário do meu colega de grupo sempre se mostrou disponivel para ajudar.
