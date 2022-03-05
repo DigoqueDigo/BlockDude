@@ -1,5 +1,7 @@
 # Laboratórios de Informática I - BlockDude
 
+<img align = "center" width = 1050px src = "https://raw.githubusercontent.com/DigoqueDigo/BlockDude/main/src/Resources1/Captura%20de%20ecr%C3%A3%20de%202022-03-05%2000-14-15.png"/>
+
 Trabalho criado totalmente por mim no âmbito da cadeira de Laboratórios de Informática I, era suposto o trabalho ter sido feito por duas pessoas, mas infelizmente o colega que me saiu na rifa não mexeu uma palha.
 
 ## Requisitos
